@@ -14,4 +14,4 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
-$router->post('test','ExampleController@test');
+$router->get('test','ExampleController@test');
